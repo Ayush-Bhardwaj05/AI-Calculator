@@ -155,14 +155,13 @@ export default function Home() {
     const canvas = canvasRef.current;
 
     if (canvas) {
-      const response = await axios({
-        method: "post",
-        url: `${import.meta.env.VITE_API_URL}/calculate`,
-        data: {
+      const response = await axios.post(
+        "https://ai-calculator-backend-4353nxh5p-ayush-bhardwaj05s-projects.vercel.app/calculate",
+        {
           image: canvas.toDataURL("image/png"),
           dict_of_vars: dictOfVars,
-        },
-      });
+        }
+      );
 
       const resp = await response.data;
       console.log("Response", resp);
