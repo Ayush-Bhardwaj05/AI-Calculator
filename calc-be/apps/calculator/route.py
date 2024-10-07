@@ -7,7 +7,7 @@ from PIL import Image
 
 router = APIRouter()
 
-@router.post('/')
+@router.post('')
 async def run(data: ImageData):
     image_data = base64.b64decode(data.image.split(',')[1])
     image_bytes = BytesIO(image_data)
@@ -19,6 +19,6 @@ async def run(data: ImageData):
     print('response in route: ', response)
     return {
         "message": "Image processed",
-        "type" : "success",
         "data": data,
+        "status" : "success",
     }
