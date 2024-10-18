@@ -2,10 +2,6 @@
 
 This is an AI-powered calculator that allows users to input handwritten mathematical expressions and get results in real-time. The calculator processes the image input using machine learning and displays the results on the canvas. The project features LaTeX rendering for mathematical expressions and a drawing canvas for user input.
 
-### Deployed on:
-- **Frontend**: Netlify
-- **Backend**: Vercel
-
 ---
 
 ## Table of Contents
