@@ -25,7 +25,7 @@ This is an AI-powered calculator that allows users to input handwritten mathemat
 
 ### Canvas Page
 
-The Canvas Page allows users to draw mathematical expressions, which the AI processes to produce answers.
+The Canvas page allows users to draw mathematical expressions, which the AI processes to produce answers.
 
 - **Drawing**: Users can draw equations or expressions using a pencil tool.
 - **Eraser Mode**: Users can switch to eraser mode to correct drawings.
